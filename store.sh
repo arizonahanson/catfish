@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-stow --dotfiles -t "$HOME" $@
+stow -v --dotfiles -d "$(dirname $0)" -t "$HOME" $@
