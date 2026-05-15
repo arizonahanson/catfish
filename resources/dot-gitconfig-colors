@@ -1,0 +1,43 @@
+[color]
+	ui = always
+
+[color "branch"]
+	current = yellow bold
+	local = yellow
+	remote = green
+	upstream = magenta bold
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red
+	new = green
+	commit = yellow bold
+	whitespace = red reverse
+	func = cyan bold
+
+[color "grep"]
+	context = normal
+	filename = blue
+	function = magenta
+	linenumber = white
+	match = yellow bold
+	selected = normal
+	separator = cyan
+
+[color "interactive"]
+	error = red bold
+	header = yellow bold
+	help = cyan
+	prompt = yellow
+
+[color "status"]
+	added = green
+	changed = yellow
+	header = white bold
+	localBranch = cyan
+	nobranch = red bold
+	remoteBranch = magenta
+	unmerged = red
+	untracked = magenta
+	updated = green bold
