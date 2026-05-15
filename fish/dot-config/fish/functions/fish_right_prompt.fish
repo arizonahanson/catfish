@@ -2,8 +2,8 @@ function fish_right_prompt --description 'Write out the prompt'
 	set -l last_status $status
 	set -l normal (set_color normal)
 	set -l status_color (set_color $ct_green)
-	set -l cwd_color (set_color $ct_blue)
-	set -l vcs_color (set_color $ct_lavender)
+	set -l cwd_color (set_color $ct_peach)
+	set -l vcs_color (set_color $ct_mauve)
 	set -l host_color (set_color $ct_yellow)
 	set -l prompt_status ""
         
