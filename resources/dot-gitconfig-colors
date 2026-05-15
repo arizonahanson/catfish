@@ -39,5 +39,5 @@
 	nobranch = red bold
 	remoteBranch = magenta
 	unmerged = red
-	untracked = magenta
+	untracked = red bold
 	updated = green bold
