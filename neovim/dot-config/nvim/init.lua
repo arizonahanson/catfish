@@ -10,4 +10,3 @@ vim.pack.add {
 			name = "catppuccin"
 		},
 }
-vim.cmd.colorscheme "catppuccin-mocha"
